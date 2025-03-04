@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: url('bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 36px;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.calendario{
+    color: #0d1a58;
+}
+
+
+#calendar {
+    width: 90%;
+    max-width: 1200px;
+    height: 750px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #0d1a58;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+#search-button {
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #0d1a58;
+}
+
+.selecionar-pais{
+    font-weight: 500;
+    color: #0d1a58;
+}
+
+.made-by {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0d1a58;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .made-by {
+        font-size: 16px;
+    }
+
+    #calendar {
+        height: 500px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .made-by {
+        font-size: 14px;
+    }
+
+    #calendar {
+        height: 350px;
+    }
+}
